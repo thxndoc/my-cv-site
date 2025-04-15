@@ -92,7 +92,7 @@ body {
 
 /*Styling for about me section*/
 .about-me {
-    margin: 2em 0;
+    margin: 2em 0 3em 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -130,7 +130,32 @@ body {
     padding: 0.25em 2em;
 }
 
+/*looking ahead section*/
+.looking-ahead-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 16px;
+}
 
+
+.looking-ahead-container img {
+    display: block;
+    margin: auto;
+    max-height: 350px;
+}
+
+.looking-ahead-container h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+}
+
+.looking-ahead-container p {
+    font-family: Roboto Mono, monospace;
+    font-size: 1.125rem;
+    letter-spacing: 0.1px;
+}
 
 /*Styling for footer*/
 footer {
