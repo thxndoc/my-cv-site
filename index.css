@@ -18,5 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f7f7f5;
+    background-image: url(./images/noise-texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 4.5em 4em 0 4em;
 }
