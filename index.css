@@ -13,6 +13,11 @@ html {
     --hover: ;
 }
 
+h1, h2, h3, h4, h4,
+h5, h6, p, a, i {
+    color: var(--text-color);
+}
+
 /*Display flex used to ensure footer stays at the bottom*/
 body {
     display: flex;
