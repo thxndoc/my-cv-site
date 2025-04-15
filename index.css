@@ -16,6 +16,7 @@ html {
 h1, h2, h3, h4, h4,
 h5, h6, p, a, i {
     color: var(--text-color);
+    font-family: Roboto, Roboto Mono, monospace, sans-serif;
 }
 
 /*Display flex used to ensure footer stays at the bottom*/
@@ -50,5 +51,18 @@ body {
     text-decoration: none;
     font-family: Roboto, sans-serif;
     font-size: 2rem;
-    font-weight: bolder;
+    font-weight: 900;
+}
+
+.menu {display: flex;}
+.menu li {padding-left: 1em;}
+.menu li a {
+    font-size: 1.125rem;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s;
+    position: relative;
+    text-transform: uppercase;
 }
