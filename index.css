@@ -197,6 +197,10 @@ footer {
         margin: 4.5em 1em 0 1em;
     }
 
+    .nav-bar {
+        padding: 0 1em;
+    }
+
     .menu {
         flex-direction: column;
         align-items: start;
