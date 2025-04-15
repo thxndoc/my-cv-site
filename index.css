@@ -89,3 +89,38 @@ body {
 }
 
 #check {display: none;}
+
+
+
+/*Styling for footer*/
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin: 1em 0;
+}
+
+.footer {
+    max-height: fit-content;
+    margin-top: 2em;
+}
+
+.footer hr {
+    color: #20202021;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.socials a i {
+   font-size: 2rem; 
+   transition: all 0.3s;
+   margin-right: 0.5em;
+}
+
+.socials a i:hover {
+    color: var(--hover);
+}
