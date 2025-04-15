@@ -12,3 +12,11 @@ html {
     --text-color: #202020;
     --hover: ;
 }
+
+/*Display flex used to ensure footer stays at the bottom*/
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f5;
+    margin: 4.5em 4em 0 4em;
+}
