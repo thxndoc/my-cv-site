@@ -40,3 +40,10 @@ body {
     padding: 0 2em;
     box-shadow: 0.5px 0.5px 1px #727272;
 }
+
+.logo a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
