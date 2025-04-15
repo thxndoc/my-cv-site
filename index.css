@@ -189,3 +189,47 @@ footer {
 .socials a i:hover {
     color: var(--hover);
 }
+
+/*Styling for media queries*/
+@media(max-width: 597px) {
+    body {
+        margin: 4.5em 1em 0 1em;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        width: fit-content;
+        height: 35%;
+        padding: 0 2em;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #f7f7f5;
+        transition: all 0.3s;
+    }
+
+    .menu li {
+        margin-top: 40px;
+        text-align: start;
+    }
+
+    .open-menu, .close-menu {
+        display: block;
+        color: var(--text-color);
+    }
+
+    #check:checked ~ .menu {right: 0;}
+}
+
+@media(max-width: 768px) {
+    .about-me {
+        grid-template-columns: 1fr;
+    }
+
+    .looking-ahead-container {
+        grid-template-columns: 1fr;
+    }
+}
