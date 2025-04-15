@@ -10,7 +10,7 @@ html {
 
 :root {
     --text-color: #202020;
-    --hover: ;
+    --hover: #9c9688;
 }
 
 h1, h2, h3, h4, h4,
@@ -66,3 +66,26 @@ body {
     position: relative;
     text-transform: uppercase;
 }
+
+.menu li a:hover {color: var(--hover);}
+
+.open-menu, .close-menu {
+    position: absolute;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+#check {display: none;}
