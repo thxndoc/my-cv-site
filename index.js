@@ -7,7 +7,10 @@ navigator.geolocation.getCurrentPosition(async position => {
             throw Error ("Weather data not available")
         }
         const data = await response.json();
-        console.log(data.current_weather);
+        //console.log(data.current_weather);
+
+        // display weather on screen
+        weather.textContent = `Current weather is: ${data.current_weather.temperature}°C`
        
     } catch (err) {
         console.error(err);
