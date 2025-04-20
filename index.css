@@ -92,10 +92,16 @@ body {
 
 /*Styling for weather and current location*/
 #weather {
-    margin: 2.5em 0 1.5em 0;
+    margin: 2.5em 0 1em 0;
     font-family: Roboto Mono, monospace;
     font-size: 0.875rem;
 }
+#location {
+    margin: 0 0 1.5em 0;
+    font-family: Roboto Mono, monospace;
+    font-size: 0.875rem;
+}
+
 
 /*Styling for about me section*/
 .about-me {
