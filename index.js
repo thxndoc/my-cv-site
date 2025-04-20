@@ -10,7 +10,7 @@ navigator.geolocation.getCurrentPosition(async position => {
         //console.log(data.current_weather);
 
         // display weather on screen
-        weather.textContent = `Current weather is: ${data.current_weather.temperature}°C`
+        weather.textContent = `Current weather is: ${Math.round(data.current_weather.temperature)}°C`
        
     } catch (err) {
         console.error(err);
